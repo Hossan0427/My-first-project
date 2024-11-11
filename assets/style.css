@@ -1,0 +1,881 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Eagle+Lake&family=Faculty+Glyphic&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Marck+Script&family=Outfit:wght@100..900&family=Pacifico&family=Playball&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Faculty+Glyphic&family=Outfit:wght@100..900&family=Pacifico&family=Playball&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #EDEDED;
+}
+
+/*Navbar Start*/
+.navbar {
+    background: rgba(255, 255, 255, );
+}
+
+.navbar-nav .nav-item {
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.nav-item .nav-link {
+    background: linear-gradient(45deg, #144230, #B4CD87);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-button {
+    background: #144230;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #F9F4EA;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.nav-button:hover {
+    background: #EDEDED;
+    border: 1px solid #144230;
+    color: #144230;
+}
+
+.logo-text {
+    background: linear-gradient(45deg, #144230, #B4CD87);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/*Medium Device*/
+@media screen and (max-width:1024px) {
+    .navbar {
+        background: #EDEDED;
+    }
+}
+
+/*Small Device*/
+@media screen and (max-width:768px) {
+    .navbar {
+        background: #EDEDED;
+    }
+}
+
+/*Navbar End*/
+
+/*Home Start*/
+.home {
+    background: #EDEDED;
+    padding-top: 90px;
+
+
+}
+
+.home-right {
+    padding: 20% 5%;
+}
+
+.home-right h5 {
+    font-size: 50px;
+    background: linear-gradient(45deg, #144230, #B4CD87);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-family: "Playball", cursive;
+}
+
+.home-right p {
+    color: #144230;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+
+.home-right a {
+    background: #144230;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #F9F4EA;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.home-right a:hover {
+    background: #EDEDED;
+    border: 1px solid #144230;
+    color: #144230;
+}
+
+.home-img{
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(90deg, #9CC485, #D5EEC6);
+    border-radius:50%;
+    margin: 95px 5px 5px 100px;
+}
+.home-img img {
+    width: 300px;
+    height: 400px;
+    margin: -82px 0px 0px 13px;
+}
+
+/*Medium Device*/
+@media screen and (max-width:1024px) {
+    .home-img{
+        width: 250px;
+        height: 250px;
+        background: linear-gradient(90deg, #9CC485, #D5EEC6);
+        border-radius:50%;
+        margin: 70px 5px 5px 100px;
+    }
+    .home-img  img {
+        width: 200px;
+        height: 300px;
+        margin: -67px 0px 0px 13px;
+    }
+}
+
+/*Small Device*/
+@media screen and (max-width:768px) {
+    .home-img {
+        display: none;
+    }
+    .home-img  img {
+        display: none;
+    }
+
+    .home-right h5 {
+        font-size: 45px;
+    }
+}
+
+/*Home End*/
+
+/*About Start*/
+.about {
+    background: #EDEDED;
+}
+
+.all-heading h1 {
+    background: linear-gradient(45deg, #144230, #B4CD87);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-family: "Playball", cursive;
+}
+
+.all-heading h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.all-heading h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: linear-gradient(45deg, #144230, #B4CD87);
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.all-heading p {
+    font-size: 14px;
+    color: #144230;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.about-right img {
+    width: 250px;
+    height: 480px;
+}
+
+.about-right {
+    padding: 5% 15%;
+}
+
+.about-left {
+    padding: 20% 5%;
+}
+
+.about-left h5 {
+    font-size: 50px;
+    background: linear-gradient(45deg, #144230, #B4CD87);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-family: "Playball", cursive;
+
+}
+
+.about-left p {
+    color: #144230;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.about-left a {
+    background: #144230;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #F9F4EA;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.about-left a:hover {
+    background: #EDEDED;
+    border: 1px solid #144230;
+    color: #144230;
+}
+
+/*Medium Device*/
+@media screen and (max-width:1024px) {
+    .about-right {
+        padding: 5% 0%;
+    }
+
+    .about-left {
+        padding: 15% 5%;
+    }
+}
+
+/*Small Device*/
+@media screen and (max-width:768px) {
+    .about-right {
+        padding: 5% 18%;
+    }
+
+    .about-right img {
+        width: 210px;
+        height: 380px;
+    }
+
+    .about-left {
+        padding: 5% 5%;
+    }
+
+    .about-left h5 {
+        font-size: 35px;
+    }
+
+    .about-left p {
+        font-size: 12px;
+    }
+
+}
+
+/*About End*/
+
+/*Collection Start*/
+.collection .nav {
+    justify-content: center;
+
+}
+
+.collection .nav-pills .nav-link {
+    color: #144230;
+    font-weight: bold;
+}
+
+.collection .nav-pills .nav-link.active {
+    background: #144230;
+    color: #fff;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.collection .card {
+    background: transparent;
+}
+
+.collection .card h5 {
+    background: linear-gradient(45deg, #144230, #B4CD87);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-family: "Playball", cursive;
+
+}
+
+.collection .card p {
+    color: #144230;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.collection-button {
+    width: 100%;
+    height: 40px;
+    background: #144230;
+    text-decoration: none;
+    color: #F9F4EA;
+    border: none;
+    border-radius: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+.category .left-side-one .card {
+    background: transparent;
+    transition: 1s;
+}
+
+.category .left-side-one .card:hover {
+    transform: scale(1.1);
+}
+
+.category .right-side-two .card {
+    background: transparent;
+    transition: 1s;
+}
+
+.category .right-side-two .card:hover {
+    transform: scale(1.1);
+}
+
+.category .right-side-one .right-body {
+    padding: 7% 2%;
+}
+
+.category .left-side-two .left-body {
+    padding: 7% 2%;
+}
+
+.category .left-side-one .card-body {
+    padding: 18% 2%;
+}
+
+.category .right-side-two .card-body {
+    padding: 18% 2%;
+}
+
+.category .left-side-one .card-body h5 {
+    font-size: 22px;
+    background: linear-gradient(45deg, #144230, #B4CD87);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-family: "Playball", cursive;
+}
+
+.category .left-side-one .card-body p {
+    font-size: 14px;
+    color: #144230;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.category .left-side-two .left-body h5 {
+    font-size: 22px;
+    background: linear-gradient(45deg, #144230, #B4CD87);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-family: "Playball", cursive;
+}
+
+.category .left-side-two .left-body p {
+    font-size: 14px;
+    color: #144230;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.category .right-side-two .card-body h5 {
+    font-size: 22px;
+    background: linear-gradient(45deg, #144230, #B4CD87);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-family: "Playball", cursive;
+}
+
+.category .right-side-two .card-body p {
+    font-size: 14px;
+    color: #144230;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+
+.category .right-side-one .right-body h5 {
+    font-size: 25px;
+    background: linear-gradient(45deg, #144230, #B4CD87);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-family: "Playball", cursive;
+}
+
+
+.category .right-side-one .right-body p {
+    font-size: 14px;
+    color: #144230;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/*Medium Device*/
+@media screen and (max-width:1024px) {
+    .category .left-side-one .card-body {
+        padding: 10% 2%;
+    }
+
+    .category .right-side-two .card-body {
+        padding: 10% 2%;
+    }
+
+    .category .right-side-one .right-body {
+        padding: 0% 5%;
+    }
+
+    .category .left-side-two .left-body {
+        padding: 0% 0%;
+    }
+
+    .category .right-side-one .right-body h5 {
+        font-size: 20px;
+    }
+
+    .category .left-side-two .left-body h5 {
+        font-size: 20px;
+    }
+
+    .category .left-side-two .left-body p {
+        font-size: 12px;
+        color: #144230;
+        font-weight: 600;
+    }
+
+    .category .right-side-one .right-body p {
+        font-size: 12px;
+        color: #144230;
+        font-weight: 600;
+    }
+
+}
+
+/*Small Device*/
+@media screen and (max-width:768px) {
+    .navbar {
+        background: #EDEDED;
+    }
+
+    .category .left-side-two .left-body {
+        display: none;
+    }
+
+    .category .right-side-one .right-body {
+        padding: 0% 0%;
+    }
+
+
+}
+
+/*Collection End*/
+
+/*Services start*/
+.Services .card img{
+    width: 90px;
+    height: 90px;
+    margin: 8px 0px 0px 80px;   
+}
+.Services .card {
+    background: transparent;
+    border: none;
+}
+
+.Services .card .card-body{
+    text-align: center;
+}
+
+.Services .card .card-body h5{
+    font-size: 18px;
+    background: linear-gradient(45deg, #144230, #B4CD87);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    font-family: "Playball", cursive;
+}
+
+.Services .card .card-body p{
+    font-size: 14px;
+    color: #144230;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+}
+/*Medium Device*/
+@media screen and (max-width:1024px){
+    .Services .card img{
+        width: 90px;
+        height: 90px;
+        margin: 8px 0px 0px 120px;   
+    }
+}
+
+/*Small Device*/
+@media screen and (max-width:768px){
+    .Services .card img{
+        width: 90px;
+        height: 90px;
+        margin: 8px 0px 0px 125px;   
+    }
+}
+
+/*Services End*/
+
+/*Review Section Start*/
+#reviews {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/carosul-back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 120px 0px;
+    padding: 40px 10px;
+}
+
+.intro-text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro-text h4 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Playball", cursive;
+}
+
+.intro-text p {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.carousel-item {
+    position: relative;
+    float: left;
+    display: none;
+    width: 100%;
+    margin-right: -100%;
+    transition: 0.6s ease-in-out;
+    backface-visibility: hidden;
+}
+
+#reviews .review {
+    background-color: #ffffff21;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.review img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #144230;
+}
+
+.review .statues {
+    color: #fff;
+}
+
+.review p {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/*Review Section End*/
+
+/*Reservation Section start*/
+#resevationr {
+    background: transparent;
+}
+
+form {
+    background: transparent;
+}
+
+#resevationr .form-control:focus {
+    box-shadow: none;
+    border-color: #144230;
+}
+
+.resevationr-heading p {
+    color: #144230;
+    font-weight: 600;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    background-color: ;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+
+}
+
+.btn7 {
+    display: inline-block;
+    line-height: 1.5;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0%;
+    padding: 18px 34px;
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+
+
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn7:hover {
+    background-color: #EDEDED;
+    color: #144230;
+    font-weight: 600;
+}
+
+.btn-brand {
+    background-color: #144230;
+    border-color: #144230;
+    font-weight: 600;
+}
+
+@media screen and (max-width:768px) {
+    .btn7 {
+        padding: 12px 34px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+/*Reservation Section end*/
+
+/*Blog Start*/
+
+
+.blog .card {
+    background: transparent;
+}
+
+.blog .card .card-body {
+    padding: 11% 5%;
+}
+
+@media screen and (max-width:1024px) {
+    .blog .card .card-body {
+        padding: 1% 6%;
+    }
+
+    .blog .card .card-body h5 {
+        font-size: 18px;
+    }
+
+    .blog .card .card-body p {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .blog .card .card-body {
+        padding: 1% 2%;
+    }
+
+    .blog .card .card-body h5 {
+        font-size: 25px;
+    }
+
+    .blog .card .card-body p {
+        font-size: 16px;
+    }
+}
+
+/*Blog End*/
+
+
+/* Footer Start*/
+footer {
+    background: #144230;
+    padding: 3% 5%;
+}
+
+.first-div h5 {
+    color: #FFC107;
+    font-weight: bold;
+    font-family: "Playball", cursive;
+
+}
+
+.first-div p {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+.second-div h5 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: "Playball", cursive;
+
+}
+
+.second-div p {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+.third-div h5 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: "Playball", cursive;
+
+}
+
+.third-div p {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+.fourt-div h5 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: "Playball", cursive;
+
+}
+
+.fourt-div p {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+.footer-last h5 {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Playball", cursive;
+}
+
+/* Footer End*/
+
+.top{
+    text-decoration: none;
+    position:fixed;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(45deg, #144230, #B4CD87);
+    color: #FFFFFF;
+    z-index: 996;
+}
+
+.top:active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.top:hover{
+    background:#EDEDED;
+    color: #899e60;
+}
+
+.top i{
+    font-size: 20px;
+    line-height: 0;
+
+}
